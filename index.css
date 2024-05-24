@@ -1,0 +1,422 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.top-navbar {
+  width: 100%;
+  height: 7vh;
+  background-color: rgb(248, 248, 248);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+}
+.top-icon {
+  margin-left: 30px;
+}
+.top-icon i {
+  font-size: 20px;
+  color: blue;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.other-link {
+  margin-right: 30px;
+}
+.other-link i {
+  cursor: pointer;
+  font-size: 20px;
+  color: blue;
+  margin-left: 10px;
+}
+#btn-login {
+  width: 100px;
+  border: 2px solid blue;
+  color: blue;
+  font-weight: bold;
+  border-radius: 5px;
+  height: 5ch;
+  transition: 0.5s ease;
+}
+#btn-login:hover {
+  color: white;
+  background-color: blue;
+}
+#btn-signup {
+  width: 100px;
+  border: 2px solid blue;
+  color: blue;
+  font-weight: bold;
+  border-radius: 5px;
+  height: 5ch;
+  transition: 0.5s ease;
+}
+#btn-signup:hover {
+  color: white;
+  background-color: blue;
+}
+/*home-selection */
+.home-selection {
+  width: 100%;
+  height: 10vh;
+  color: rgb(238, 0, 0);
+}
+
+/*navbar*/
+#navbar {
+  background-color: darkblue;
+  font-size: 15px;
+  font-family: "Roboto Slab", serif;
+}
+#navbar .nav-link {
+  color: white;
+  font-weight: bold;
+  margin-left: 5px;
+  transition: 0.5s ease;
+}
+#navbar .nav-link:hover {
+  color: white;
+  background-color: rgb(153, 153, 216);
+  border-radius: 5px;
+}
+.dropdown li a {
+  color: white;
+  border-radius: 5px;
+}
+#search-btn {
+  transition: 0.4s ease-in-out;
+}
+#search-btn:hover {
+  color: white;
+  background-color: rgb(187, 187, 207);
+}
+/*navbar*/
+
+/*Home Content*/
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto Slab", serif;
+}
+.content {
+  padding-left: 10px;
+  margin-left: 100px;
+}
+.img {
+  margin-left: 100px;
+}
+.img img {
+  max-width: 100%;
+  max-height: 100%;
+  width: 650px;
+  height: 500px;
+}
+
+.content h2 {
+  color: darkblue;
+  font-size: 60px;
+  font-weight: bold;
+}
+.content h2 span {
+  font-size: 40px;
+}
+.content p {
+  color: darkblue;
+  font-size: 15px;
+  padding-top: 5px;
+}
+.content #shopnow {
+  width: 200px;
+  border: 2px soild darkblue;
+  border-radius: 5px;
+  height: 30px;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+.content #shopnow:hover {
+  color: white;
+  background-color: darkblue;
+}
+/*card*/
+#top-card {
+  font-family: "Roboto Slab", serif;
+  padding-top: 10px;
+}
+.card #order {
+  width: 100px;
+  border: 2px soild darkblue;
+  color: darkblue;
+  border-radius: 3px;
+  height: 30px;
+  transition: 0.5s ease;
+  cursor: pointer;
+  background: transparent;
+  font-weight: bold;
+}
+.card #order:hover {
+  color: white;
+  background-color: darkblue;
+}
+.card h5 {
+  font-weight: bold;
+  color: darkblue;
+  font-size: 20px;
+}
+
+
+/*banner*/
+.banner {
+  background-image: url(./image/banner.jpg);
+  width: 100%;
+  height: 300px;
+}
+.banner .content-banner {
+  text-align: center;
+  padding-top: 90px;
+}
+.content-banner h2 {
+  color: aliceblue;
+  letter-spacing: 3px;
+}
+.content-banner p {
+  color: aliceblue;
+  letter-spacing: 3px;
+}
+.content-banner #bannerbtn {
+  width: 150px;
+  height: 30px;
+  border: 1px solid white;
+  background: transparent;
+  color: aliceblue;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+.content-banner #bannerbtn:hover {
+  background-color: darkblue;
+  border: none;
+}
+
+/*product*/
+#product {
+  font-family: "Roboto Slab", serif;
+  margin-top: 10px;
+}
+.card .star {
+  color: rgb(231, 231, 23);
+}
+.card h3 {
+  margin-top: 10px;
+  color: darkblue;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+.card h6 span {
+  float: right;
+  cursor: pointer;
+}
+.text-center {
+  font-family: "Roboto Slab", serif;
+  margin-top: 80px;
+  font-weight: bold;
+}
+#viewbtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin: auto;
+    margin-top: 30px;
+    width: 150px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid darkblue;
+    color: darkblue;
+    letter-spacing: 3px;
+    transition: 0.5s ease;  
+}
+
+#viewbtn:hover{
+    background-color: darkblue;
+    color: aliceblue;
+}
+
+#offer{
+    margin-top: 50px;
+}
+#offer i{
+    font-size: 60px;
+    color: darkblue;
+}
+
+
+#footer{
+  color: white;
+  padding: 0 0 20px 0;
+  background-color: darkblue;
+  font-size: 10px;
+  font-family: "Roboto Slab", serif;
+
+}
+#footer .footer-top{
+ padding: 60px 0 30px 0;
+}
+#footer .footer-top .footer-content h3{
+  font-weight: bold;
+  font-size: 40px;
+}
+#footer .footer-top .footer-content p{
+  font-size: 10px;
+  padding: 2px 0 2px 0;
+}
+
+#footer .footer-top .footer-link ul{
+ list-style: none;
+ padding: 0;
+ margin: 0;
+}
+#footer .footer-top .footer-link ul li a{
+  color: aliceblue;
+  line-height: 2;
+}
+#footer .footer-top .social-links i{
+  font-size: 20px;
+  display: inline-block;
+  padding: 10px;
+  
+}
+
+
+/*contact*/
+#contact h1{
+  color: darkblue;
+}
+#contact .card{
+  height: 80px;
+  margin-top: 5px;
+  padding-bottom: 40px;
+}
+#contact .card i{
+ margin-top: 20px;
+ margin-left: 10px;
+font-weight: bold;
+letter-spacing: 3px;
+}
+#contact .card h3{
+  margin-top: 10px;
+  font-family: "Roboto Slab", serif;
+  font-size: 14px;
+  margin-left: 10px;
+  letter-spacing: 4px;
+}
+#mesbtn button{  
+   width: 200px;
+   height: 30px;
+   letter-spacing: 3px;
+   color: darkblue;
+   border: 2px solid black ;
+   font-weight: bold;
+   transition: 0.5s ease;
+}
+#mesbtn button:hover{
+  color: white;
+  background-color: darkblue;
+}
+
+#about h1{
+  color: darkblue;
+
+}
+
+
+#clothe{
+  background: url(./image/banner2.jpg);
+  width: 100%;
+  height: 400px;
+}
+
+.login{
+  font-family: "Roboto Slab", serif;
+  width: 70%;
+  margin-left: 100px;
+ 
+}
+#side1{
+background-color: darkblue;
+height: 76vh;
+border-radius: 2px;
+}
+#side1 h3{
+  color: aliceblue;
+  text-align: center;
+  align-items: center;
+  margin-top: 200px;
+  font-weight: bold;
+}
+#side1 p{
+  color: aliceblue;
+  font-weight: bold;
+  text-align: center;
+  align-items: center;
+}
+#btn{
+  width: 100%;
+  border: 2px solid white ;
+  text-align: center;
+  align-items: center;
+  border-radius: 5px;
+}
+#btn a{
+  text-decoration: none;
+  color: white;
+}
+#side2{
+  background-color:rgb(255, 255, 255);
+  border-radius: 5px;
+  text-align: center;
+  align-items: center;
+ 
+}
+#side2 h3{
+  font-weight: bold;
+  color: darkblue;
+  margin-top: 30px;
+}
+#side2 .imp{
+margin-top: 30px;
+}
+#side2 input{
+  width: 500px;
+  height: 40px;
+  margin-top: 10px;
+  align-items: center;
+}
+#side2 p{
+  color: darkblue;
+  cursor: pointer;
+  margin-top: 10px;
+}
+#side2 .icon i{
+  margin-left: 10px;
+  cursor: pointer;
+}
+#login{
+  margin-top: 10px;
+}
+#login button{
+  width: 200px;
+  height: 25px;
+  background-color: darkblue;
+  color: aliceblue;
+  border: 1px solid black;
+  letter-spacing: 2px;
+  
+}
+#login button:hover{
+  color: aliceblue;
+  background-color: black;
+}
+
+
+

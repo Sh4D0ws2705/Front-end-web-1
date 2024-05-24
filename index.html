@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--Top nav-->
+    <div class="top-navbar">
+      <div class="top-icon">
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-instagram"></i>
+      </div>
+      <div class="other-link">
+        <button id="btn-login"><a href="login.html"></a>Login</button>
+        <button id="btn-signup"><a href="signup.html"></a>Sign up</button>
+
+        <i class="fa-solid fa-user"></i>
+        <i class="fa-solid fa-cart-shopping"></i>
+      </div>
+    </div>
+    <!--Top nav-->
+
+    <div class="home-selection">
+      <!--navbar-->
+      <nav class="navbar navbar-expand-lg" id="navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"
+            ><img src="image/logo.png" alt="" width="180px"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarScroll"
+            aria-controls="navbarScroll"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            
+          >
+            <span
+              ><i class="fa-solid fa-bars" style="color: rgb(0, 0, 0)"></i
+            ></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul
+              class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+              style="--bs-scroll-height: 100px"
+            >
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="clothe.html">Clothe</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarScrollingDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Category
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarScrollingDropdown"
+                  style="background-color: darkblue"
+                >
+                  <li><a class="dropdown-item" href="#">T-shirt</a></li>
+                  <li><a class="dropdown-item" href="#">Hoddies</a></li>
+                  <li><a class="dropdown-item" href="#">Sweater</a></li>
+                  <li><a class="dropdown-item" href="#">Pant</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact Us</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button
+                class="btn btn-outline-light"
+                type="submit"
+                id="search-btn"
+              >
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!--navbar-->
+
+    <!--home content-->
+    <div class="home">
+      <div class="container-fluid mt-5">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="content">
+              <h2>
+                Biggest Clote Sales <br/> 
+               <span>Up To 50% off</span> 
+              </h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur consectetur consectetur,
+                <br />nsecteturconsectetur consectetur adipisicing elit.
+              </p>
+              <button id="shopnow">Shop Now</button>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="img">
+              <img src="image/b2.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container" id="top-card">
+      <div class="row pt-5">
+        <div class="col-sm-12 col-lg-5 py-3 ">
+          <div class="card"> 
+            <img  src="./image/topcard1.png" style="height: 500px;" width="100%" alt="">
+            <div class="card-img-overlay">
+              <h5>Smart Watch</h5>
+              <p>Lorem,dignissimos animi
+               Pariatur corrupti sed sint dolore dolores alias commodi tempore?</p>
+               <p> <strong>200.30$ <strike>250.10$</strike></strong> </p>
+               <button id="order">Order Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-lg-4 py-3 ">
+          <div class="card pt-lg-5"> 
+            <img  src="./image/topcard2.png" style="height: 450px;" width="100%" alt="">
+            <div class="card-img-overlay">
+              <h5>Nike Shoes</h5>
+              <p>Lorem,dignissimos animi
+               Pariatur corrupti sed sint dolore dolores alias commodi tempore?</p>
+               <p> <strong>100.30$ <strike>250.10$</strike></strong> </p>
+               <button id="order">Order Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-lg-3 py-3">
+          <div class="card pt-5"> 
+            <img  src="./image/topcard3.png" style="height: 450px;" width="100%" alt="">
+            <div class="card-img-overlay">
+              <h5>Bag</h5>
+              <p>Lorem,dignissimos animi
+               Pariatur  tempore?</p>
+               <p> <strong>90.30$ <strike>250.10$</strike></strong> </p>
+               <button id="order">Order Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+   <div class="banner">
+    <div class="content-banner">
+      <h2>Get Up To 50% Off</h1>
+        <p>Lorem ipsum dolor sit, consequatur. Esse?</p>
+        <button id="bannerbtn">Shop Now</button>
+    </div>
+   </div>
+
+
+   <div class="container" id="product">
+    <h1 class="text-center">PRODUCT</h1>
+    <div class="row" style="margin-top:30px ;">
+      <div class="col-sm-12 col-md-6 col-lg-3 py-3">
+        <div class="card">
+          <img src="./image/p16.png" alt="" >
+          <div class="card-body">
+            <h3>Men Jacket</h3>
+            <p>corporis cumque consequuntur ad ullam?</p>
+            <div class="star">
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+            </div>
+            <h6>40.30$ <strike>90.10$</strike> <span> <i class="fa-solid fa-cart-shopping"></i></span></h6>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-3 py-3">
+        <div class="card">
+          <img src="./image/p18.png" alt="">
+          <div class="card-body">
+            <h3>White Shoe</h3>
+            <p>corporis cumque consequuntur ad ullam?</p>
+            <div class="star">
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+            </div>
+            <h6>90.30$ <strike>150.10$</strike> <span> <i class="fa-solid fa-cart-shopping"></i></span></h6>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-3 py-3">
+        <div class="card">
+          <img src="./image/p6.png" alt="">
+          <div class="card-body">
+            <h3>Running Shoe</h3>
+            <p>corporis cumque consequuntur ad ullam?</p>
+            <div class="star">
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+            </div>
+            <h6>100.10$ <strike>150.10$</strike> <span> <i class="fa-solid fa-cart-shopping"></i></span></h6>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-3 py-3">
+        <div class="card">
+          <img src="./image/p5.png" alt="">
+          <div class="card-body">
+            <h3>handbags</h3>
+            <p>corporis cumque consequuntur ad ullam?</p>
+            <div class="star">
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+            </div>
+            <h6>200.90$ <strike>300.10$</strike> <span> <i class="fa-solid fa-cart-shopping"></i></span></h6>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-3 py-3">
+        <div class="card">
+          <img src="./image/p3.png" alt="">
+          <div class="card-body">
+            <h3>Smart Watch</h3>
+            <p>corporis cumque consequuntur ad ullam?</p>
+            <div class="star">
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+            </div>
+            <h6>499.99$ <strike>599.99$</strike> <span> <i class="fa-solid fa-cart-shopping"></i></span></h6>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-3 py-3">
+        <div class="card">
+          <img src="./image/p2.png" alt="">
+          <div class="card-body">
+            <h3>Zip Hoddie</h3>
+            <p>corporis cumque consequuntur ad ullam?</p>
+            <div class="star">
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+            </div>
+            <h6>90.80$ <strike>100.10$</strike> <span> <i class="fa-solid fa-cart-shopping"></i></span></h6>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-3 py-3">
+        <div class="card">
+          <img src="./image/p14.png" alt="">
+          <div class="card-body">
+            <h3>Purple Heel</h3>
+            <p>corporis cumque consequuntur ad ullam?</p>
+            <div class="star">
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+            </div>
+            <h6>60.30$ <strike>250.10$</strike> <span> <i class="fa-solid fa-cart-shopping"></i></span></h6>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-3 py-3">
+        <div class="card">
+          <img src="./image/p4.png" alt="">
+          <div class="card-body">
+            <h3>Shirt</h3>
+            <p>corporis cumque consequuntur ad ullam?</p>
+            <div class="star">
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+              <i class="fas fa-star checked"></i>
+            </div>
+            <h6>56.30$ <strike>150.10$</strike> <span> <i class="fa-solid fa-cart-shopping"></i></span></h6>
+          </div>
+        </div>
+      </div> 
+    </div>
+    <a href="clothe.html" id="viewbtn">View More</a>
+   </div>
+
+
+
+   <div class="container">
+    <hr>
+    <h3 style="font-weight: bold;">PRODUCT</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis nihil doloribus tempore voluptatum delectus, commodi aliquam saepe, officia labore quidem, eum quibusdam modi dignissimos 
+      vitae expedita voluptatibus ipsam. Inventore, laborum.</p>
+      <hr>
+   </div>
+
+
+   <div class="container" id="offer">
+    <div class="row">
+      <div class="col-sm-4 py-3">
+        <i class="fa-solid fa-cart-shopping"></i>
+        <h5>Free Shipping</h5>
+        <p>On order over 400$</p>
+      </div>
+      <div class="col-sm-4 py-3">
+        <i class="fa-solid fa-truck"></i>
+        <h5>Fast Delivery</h5>
+        <p>World Wide</p>
+      </div>
+      <div class="col-sm-4 py-3">
+        <i class="fa-solid fa-thumbs-up"></i>
+        <h5>Big Choice</h5>
+        <p>Our product</p>
+      </div>
+    </div>
+   </div>
+
+
+   <footer id="footer" style="margin-top: 50px;">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 py-3 footer-content">
+            <h3>Fashion</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur dolor sit amet consectetur</p>
+            <p>
+              Karcachi <br>
+              Sindh <br>
+              Pakistan <br>
+            </p>
+            <strong><i class="fas fa-phone"></i>Phone: <strong>+00000000000</strong></strong><br>
+            <strong><i class="fa-solid fa-envelope"></i>Email: <strong>22211tt2342@mail</strong></strong>
+          </div>
+          <div class="col-lg-3 col-md-6 py-3 footer-link">
+            <h5>Usefull Links</h6>
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Privacy policay</a></li>
+              </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 py-3 footer-link">
+            <h5>Our Services</h5>
+            <p>Lorem Repellat reiciendis ipsam veritatis.</p>
+            <ul>
+              <li><a href="#">Smart Watch</a></li>
+              <li><a href="#">Smart Phone</a></li>
+              <li><a href="#">Airpods</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 py-3 footer-links">
+            <h5>Our Social Network</h5>
+            <p>Lorem ipsum dolor sit amet  ipsum dolor sit amet  ipsum dolor sit amet!</p>
+            <div class="social-links mt-3">
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-instagram-square"></i>
+              <i class="fa-brands fa-google-plus"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="container py-4">
+      <div class="copyright">
+        &copy;Nguyen Hieu Nghia 22211tt2342
+      </div>
+    </div>
+
+   </footer>
+
+    <script src="js/bootstrap.bundle.js"></script>
+  </body>
+</html>

@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--Top nav-->
+    <div class="top-navbar">
+      <div class="top-icon">
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-instagram"></i>
+      </div>
+      <div class="other-link">
+        <button id="btn-login"><a href="login.html"></a>Login</button>
+        <button id="btn-signup"><a href="signup.html"></a>Sign up</button>
+
+        <i class="fa-solid fa-user"></i>
+        <i class="fa-solid fa-cart-shopping"></i>
+      </div>
+    </div>
+    <!--Top nav-->
+
+    <div class="home-selection">
+      <!--navbar-->
+      <nav class="navbar navbar-expand-lg" id="navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"
+            ><img src="image/logo.png" alt="" width="180px"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarScroll"
+            aria-controls="navbarScroll"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            
+          >
+            <span
+              ><i class="fa-solid fa-bars" style="color: rgb(0, 0, 0)"></i
+            ></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul
+              class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+              style="--bs-scroll-height: 100px"
+            >
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="clothe.html">Clothe</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarScrollingDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Category
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarScrollingDropdown"
+                  style="background-color: darkblue"
+                >
+                  <li><a class="dropdown-item" href="#">T-shirt</a></li>
+                  <li><a class="dropdown-item" href="#">Hoddies</a></li>
+                  <li><a class="dropdown-item" href="#">Sweater</a></li>
+                  <li><a class="dropdown-item" href="#">Pant</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact Us</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button
+                class="btn btn-outline-light"
+                type="submit"
+                id="search-btn"
+              >
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!--navbar-->
+
+    <div class="container login">
+        <div class="row">
+            <div class="col-md-4" id="side1">
+                <h3>Hello Friend!</h3>
+                <p>Create New Account</p>
+                <div id="btn"><a href="signup.html">Sign up</a></div>
+            </div>
+            <div class="col-md-8" id="side2">
+                <h3>Login Account</h3>
+               <div class="imp">
+                <input type="text" name="email" id="" placeholder="User name" >
+                <input type="password" name="email" id="" placeholder="Password" >
+                
+               </div>
+               <p>Forgot your Password</p>
+               <div class="icon">
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-instagram-square"></i>
+               </div>
+               <div id="login"><button>LOG IN</button></div>
+                
+            </div>
+
+        </div>
+    </div>
+    
+
+
+   <footer id="footer" style="margin-top: 50px;">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 py-3 footer-content">
+            <h3>Fashion</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur dolor sit amet consectetur</p>
+            <p>
+              Karcachi <br>
+              Sindh <br>
+              Pakistan <br>
+            </p>
+            <strong><i class="fas fa-phone"></i>Phone: <strong>+00000000000</strong></strong><br>
+            <strong><i class="fa-solid fa-envelope"></i>Email: <strong>22211tt2342@mail</strong></strong>
+          </div>
+          <div class="col-lg-3 col-md-6 py-3 footer-link">
+            <h5>Usefull Links</h6>
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Privacy policay</a></li>
+              </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 py-3 footer-link">
+            <h5>Our Services</h5>
+            <p>Lorem Repellat reiciendis ipsam veritatis.</p>
+            <ul>
+              <li><a href="#">Smart Watch</a></li>
+              <li><a href="#">Smart Phone</a></li>
+              <li><a href="#">Airpods</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 py-3 footer-links">
+            <h5>Our Social Network</h5>
+            <p>Lorem ipsum dolor sit amet  ipsum dolor sit amet  ipsum dolor sit amet!</p>
+            <div class="social-links mt-3">
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-instagram-square"></i>
+              <i class="fa-brands fa-google-plus"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="container py-4">
+      <div class="copyright">
+        &copy;Nguyen Hieu Nghia 22211tt2342
+      </div>
+    </div>
+
+   </footer>
+
+    <script src="js/bootstrap.bundle.js"></script>
+  </body>
+</html>
